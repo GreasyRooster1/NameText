@@ -1,0 +1,27 @@
+:root{
+    --brand-gray: gray;
+    --brand-blue: blue;
+    --brand-green: lime;
+    --brand-black: #444444;
+}
+
+body{
+    margin: 0;
+}
+
+.main-content{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: var(--brand-black);
+}
+
+.name-text{
+    background: linear-gradient(-10deg,var(--brand-green),var(--brand-blue));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10em;
+    line-height: 10em;
+    height: 10em;
+}
