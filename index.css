@@ -17,12 +17,13 @@ body{
 }
 
 .name-text{
-    background: linear-gradient(90deg, var(--brand-blue) 0%, var(--brand-gray) 48%, var(--brand-green) 100%);
+    background: linear-gradient(120deg, var(--brand-blue) 0%, var(--brand-gray) 48%, var(--brand-green) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     font-size: 10em;
     font-family: "Kanit", serif;
     font-weight: 800;
-    width:fit-content;
+    width:100%;
+    text-align: center;
 }
