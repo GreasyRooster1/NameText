@@ -22,4 +22,7 @@ body{
     -webkit-background-clip: text;
     color: transparent;
     font-size: 10em;
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    width:fit-content;
 }
